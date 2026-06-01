@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 public class AttributeRegulatorBlockEntity extends BlockEntity implements ContainerData, MenuProvider
 {
     // 能量存储：容量 100,000,000 FE，最大输入 8000 FE/t，不允许提取能量
-    public final EnergyStorage energyStorage = new EnergyStorage(100000000, 8000, 0, 0);
+    public final EnergyStorage energyStorage = new EnergyStorage(100000000, 200000, 0, 0);
     private LazyOptional<IEnergyStorage> lazyEnergy = LazyOptional.of(() -> this.energyStorage);
 
     // 神化属性值
