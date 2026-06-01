@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "apothicflux:block/attribute_regulator"
+    }
+  }
+}
